@@ -122,6 +122,80 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &107970320
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1645537998}
+    m_Modifications:
+    - target: {fileID: 5966753001881113004, guid: 25ed7f244b81d724a94a94f04d1f83d6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.6783774
+      objectReference: {fileID: 0}
+    - target: {fileID: 5966753001881113004, guid: 25ed7f244b81d724a94a94f04d1f83d6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.06013421
+      objectReference: {fileID: 0}
+    - target: {fileID: 5966753001881113004, guid: 25ed7f244b81d724a94a94f04d1f83d6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.4307146
+      objectReference: {fileID: 0}
+    - target: {fileID: 5966753001881113004, guid: 25ed7f244b81d724a94a94f04d1f83d6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.014768981
+      objectReference: {fileID: 0}
+    - target: {fileID: 5966753001881113004, guid: 25ed7f244b81d724a94a94f04d1f83d6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.013256543
+      objectReference: {fileID: 0}
+    - target: {fileID: 5966753001881113004, guid: 25ed7f244b81d724a94a94f04d1f83d6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.6678432
+      objectReference: {fileID: 0}
+    - target: {fileID: 5966753001881113004, guid: 25ed7f244b81d724a94a94f04d1f83d6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.74403733
+      objectReference: {fileID: 0}
+    - target: {fileID: 5966753001881113004, guid: 25ed7f244b81d724a94a94f04d1f83d6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -83.822
+      objectReference: {fileID: 0}
+    - target: {fileID: 5966753001881113004, guid: 25ed7f244b81d724a94a94f04d1f83d6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5966753001881113004, guid: 25ed7f244b81d724a94a94f04d1f83d6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -182.274
+      objectReference: {fileID: 0}
+    - target: {fileID: 6450837543719979798, guid: 25ed7f244b81d724a94a94f04d1f83d6,
+        type: 3}
+      propertyPath: m_Name
+      value: Ray Gun
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 25ed7f244b81d724a94a94f04d1f83d6, type: 3}
+--- !u!4 &107970321 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5966753001881113004, guid: 25ed7f244b81d724a94a94f04d1f83d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 107970320}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &132372947
 GameObject:
   m_ObjectHideFlags: 0
@@ -174,7 +248,7 @@ MonoBehaviour:
   useRecommendedMSAALevel: 1
   _monoscopic: 0
   _sharpenType: 0
-  _enableDynamicResolution: 0
+  _enableDynamicResolution: 1
   minDynamicResolutionScale: 1
   maxDynamicResolutionScale: 1
   quest2MinDynamicResolutionScale: 1
@@ -224,7 +298,7 @@ MonoBehaviour:
   requestBodyTrackingPermissionOnStartup: 0
   requestFaceTrackingPermissionOnStartup: 0
   requestEyeTrackingPermissionOnStartup: 0
-  requestScenePermissionOnStartup: 0
+  requestScenePermissionOnStartup: 1
   requestRecordAudioPermissionOnStartup: 0
   _localDimming: 1
   _trackingOriginType: 1
@@ -974,6 +1048,7 @@ Transform:
   m_Children:
   - {fileID: 1495131648}
   - {fileID: 249714389}
+  - {fileID: 107970321}
   m_Father: {fileID: 637362210}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1726566595
@@ -1308,5 +1383,5 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 410087041}
-  - {fileID: 132372952}
   - {fileID: 1102388762}
+  - {fileID: 132372952}

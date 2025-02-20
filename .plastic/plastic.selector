@@ -1,0 +1,4 @@
+repository "Ghost Hunter/Ghost Hunter@13469136340841@cloud"
+  path "/"
+    br "/main"
+    co "/main"
